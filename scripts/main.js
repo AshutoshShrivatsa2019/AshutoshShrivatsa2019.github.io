@@ -8,13 +8,13 @@ myImage.onclick=function()
 var mySrc=myImage.getAttribute("src");
 
 
-if(mySrc==="C:/Ashutosh/TrainingLearning/web-projects/first-test-site/images/dogs.jfif")
+if(mySrc==="images/dogs.jfif")
 {
-myImage.setAttribute("src","C:/Ashutosh/TrainingLearning/web-projects/first-test-site/images/dogs2.jfif");
+myImage.setAttribute("src","images/dogs2.jfif");
 }
 else
 {
-myImage.setAttribute("src","C:/Ashutosh/TrainingLearning/web-projects/first-test-site/images/dogs.jfif");
+myImage.setAttribute("src","images/dogs.jfif");
 }
 
 
