@@ -1,53 +1,80 @@
-﻿/*
-p
-{
-color:red;
-}
-*/
 
-html
-{
-font-size:10px; /*px means "pixels":the base font size for the whole page is now set to 10 pixels high*/
-font-family:'Ruge Boogie', cursive; /*rest of the o/p got from google fonts */
-background-color:#F8F239;
-}
 
-h1
-{
-font-size:60px;
-text-align:center;
+  body
+  {
+      background-color: rgb(241, 234, 234);
+  }
 
-margin:0;
-padding:20px 0;
-color:#F8F239;
-text-shadow:3px 3px 1px black;
+  img{
+    float: left;
+    height:50px;
+    width: 100px;
+
 }
 
-p,li
-{
-font-size:16px;
-line-height:2;
-letter-spacing:1px
+h1 {
+  color:rgb(7, 7, 7);
+  text-align: center;
+  background-color: rgb(255, 0, 0);
+  height: 50px;
+  margin: 0;
 }
 
-body
-{
-width:600px;
-margin:0 auto;
-background-color:#F72B2E;
-padding:0 20px 20px 20px;
-border:5px solid black;
+nav>ul{
+  background-color: black;
+  margin: 0;
+ padding: 0;
+
 }
 
-/*
-img
+nav >ul > li
 {
-display:block;
-margin:0 auto;
+   display: inline-block;
 }
-*/
 
-#img-2
+nav >ul > li > a
 {
-float:right;
+    padding:14px 16px;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    background-color: black;
 }
+
+
+.active
+{
+    background-color:yellow;
+}
+  
+
+  .default {
+    background: none;
+    color: #666;
+  }
+  .group:before,
+  .group:after {
+    content: "";
+    display: flex;
+    clear: both;
+  }
+
+  main {
+    float: right;
+    width: 63%;
+  }
+
+  section {
+    float: right;
+    width: 75%;
+  }
+
+  aside {
+    float: left;
+    width: 30%;
+  }
+  footer {
+    margin-bottom: 0;
+  }
+  
